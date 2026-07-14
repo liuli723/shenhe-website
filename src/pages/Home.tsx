@@ -98,7 +98,7 @@ export function Home() {
       </section>
 
       {/* ============================================================
-          核心业务 - 白色背景
+          核心业务 - 白色背景，白色卡片
           ============================================================ */}
       <section id="products" className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -107,7 +107,7 @@ export function Home() {
               <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-2">
                 {t('home.products')}
               </h2>
-              <p className="text-lg text-[#6B6B6B]">专注于3D打印设备及工业胶水解决方案</p>
+              <p className="text-lg text-[#6B6B6B]">专注于工业胶水解决方案</p>
             </div>
             <Link to="/products" className="text-[#D4A843] hover:text-[#B8922E] font-medium">
               {t('home.viewMore')} →
@@ -120,16 +120,16 @@ export function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-[#F8F6F3] rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-[#E5DDD0] hover:border-[#D4A843] group"
+                className="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-[#E5DDD0] hover:border-[#D4A843] group"
               >
-                <div className="h-52 bg-[#F0EDE8] overflow-hidden">
+                <div className="h-52 bg-[#F5F0E8] overflow-hidden">
                   {isValidImagePath(product.icon) ? (
                     <img
                       src={getIconImage(product.icon)}
                       alt={product.name}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                       onError={(e) => {
-                        (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"%3E%3Crect width="400" height="300" fill="%23f0ede8"/%3E%3Ctext x="200" y="160" font-family="sans-serif" font-size="20" fill="%23999" text-anchor="middle"%3E暂无图片%3C/text%3E%3C/svg%3E'
+                        (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"%3E%3Crect width="400" height="300" fill="%23f5f0e8"/%3E%3Ctext x="200" y="160" font-family="sans-serif" font-size="20" fill="%23999" text-anchor="middle"%3E暂无图片%3C/text%3E%3C/svg%3E'
                       }}
                     />
                   ) : (
@@ -151,7 +151,7 @@ export function Home() {
       </section>
 
       {/* ============================================================
-          企业优势 - 白色背景
+          企业优势 - 白色背景，白色卡片
           ============================================================ */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -173,16 +173,16 @@ export function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-[#F8F6F3] rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-[#E5DDD0] hover:border-[#D4A843] group"
+                className="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-[#E5DDD0] hover:border-[#D4A843] group"
               >
-                <div className="w-full aspect-square bg-[#F0EDE8] overflow-hidden">
+                <div className="w-full aspect-square bg-[#F5F0E8] overflow-hidden">
                   {isValidImagePath(advantage.icon) ? (
                     <img
                       src={getIconImage(advantage.icon)}
                       alt={advantage.name}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                       onError={(e) => {
-                        (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400"%3E%3Crect width="400" height="400" fill="%23f0ede8"/%3E%3Ctext x="200" y="210" font-family="sans-serif" font-size="20" fill="%23999" text-anchor="middle"%3E暂无图片%3C/text%3E%3C/svg%3E'
+                        (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400"%3E%3Crect width="400" height="400" fill="%23f5f0e8"/%3E%3Ctext x="200" y="210" font-family="sans-serif" font-size="20" fill="%23999" text-anchor="middle"%3E暂无图片%3C/text%3E%3C/svg%3E'
                       }}
                     />
                   ) : (
@@ -202,7 +202,7 @@ export function Home() {
       </section>
 
       {/* ============================================================
-          最新动态 - 白色背景
+          最新动态 - 白色背景，白色卡片
           ============================================================ */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -226,15 +226,15 @@ export function Home() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 <Link to={`/news/${item.id}`}>
-                  <div className="bg-[#F8F6F3] rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-[#E5DDD0] hover:border-[#D4A843] group h-full flex flex-col">
-                    <div className="h-52 bg-[#F0EDE8] overflow-hidden flex-shrink-0">
+                  <div className="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-[#E5DDD0] hover:border-[#D4A843] group h-full flex flex-col">
+                    <div className="h-52 bg-[#F5F0E8] overflow-hidden flex-shrink-0">
                       {isValidImagePath(item.cover_image) ? (
                         <img
                           src={getNewsImage(item.cover_image)}
                           alt={item.title}
                           className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                           onError={(e) => {
-                            (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"%3E%3Crect width="400" height="300" fill="%23f0ede8"/%3E%3Ctext x="200" y="160" font-family="sans-serif" font-size="20" fill="%23999" text-anchor="middle"%3E暂无图片%3C/text%3E%3C/svg%3E'
+                            (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"%3E%3Crect width="400" height="300" fill="%23f5f0e8"/%3E%3Ctext x="200" y="160" font-family="sans-serif" font-size="20" fill="%23999" text-anchor="middle"%3E暂无图片%3C/text%3E%3C/svg%3E'
                           }}
                         />
                       ) : (

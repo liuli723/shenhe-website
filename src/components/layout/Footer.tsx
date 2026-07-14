@@ -11,14 +11,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-bold text-primary mb-4">深圳申禾工业科技有限公司</h3>
-            <p className="text-text-light text-sm">专注于3D打印设备及工业胶水解决方案</p>
+            <p className="text-text-light text-sm">专注于工业胶水解决方案</p>
           </div>
           <div>
             <h4 className="font-semibold mb-4">{t('contact.info')}</h4>
             <ul className="space-y-2 text-sm text-text-light">
-              <li>📞 0755-8888-8888</li>
-              <li>✉️ info@shenhe.com</li>
-              <li>📍 深圳市南山区科技园</li>
+              <li>📞 133-8498-7720</li>
+              <li>✉️ 13384987720@189.com</li>
+              <li>📍 深圳市宝安区松岗街道东方社区东方一路32号厂房A栋201</li>
             </ul>
           </div>
           <div>
