@@ -37,9 +37,9 @@ export function About() {
             <h2 className="text-2xl font-bold text-primary mb-4">{t('about.team')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { name: '张伟', position: 'CEO & 创始人', bio: '20年工业科技领域经验' },
-                { name: '李静', position: '技术总监', bio: '15年3D打印研发经验' },
-                { name: '王磊', position: '运营总监', bio: '10年企业管理经验' },
+                { name: '潘海翠', position: 'CEO & 创始人', bio: '20年工业科技领域经验' },
+                { name: '李珊', position: '技术总监', bio: '15年3D打印研发经验' },
+                { name: '宋超', position: '运营总监', bio: '10年企业管理经验' },
               ].map((member) => (
                 <div key={member.name} className="bg-background-light p-6 rounded-lg border border-border text-center">
                   <div className="w-20 h-20 mx-auto bg-primary/10 rounded-full flex items-center justify-center text-2xl font-bold text-primary">
