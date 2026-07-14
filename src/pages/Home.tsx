@@ -114,7 +114,7 @@ export function Home() {
           <div className="flex items-center justify-between mb-12">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-2">
-                🏭 {t('home.products')}
+                {t('home.products')}
               </h2>
               <p className="text-lg text-[#6B6B6B]">专注于3D打印设备及工业胶水解决方案</p>
             </div>
@@ -167,7 +167,7 @@ export function Home() {
           <div className="flex items-center justify-between mb-12">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-2">
-                ⭐ {t('home.advantages')}
+              {t('home.advantages')}
               </h2>
               <p className="text-lg text-[#6B6B6B]">企业核心竞争力</p>
             </div>
@@ -219,7 +219,7 @@ export function Home() {
           <div className="flex items-center justify-between mb-12">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-2">
-                📰 {t('home.news')}
+              {t('home.news')}
               </h2>
               <p className="text-lg text-[#6B6B6B]">企业最新动态与资讯</p>
             </div>
