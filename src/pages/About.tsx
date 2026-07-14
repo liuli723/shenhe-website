@@ -17,7 +17,7 @@ export function About() {
           <div>
             <h2 className="text-2xl font-bold text-primary mb-4">{t('about.intro')}</h2>
             <p className="text-text-light leading-relaxed">
-              深圳申禾工业科技有限公司是一家专注于工业科技领域的高新技术企业，致力于为全球客户提供优质的3D打印设备及工业胶水解决方案。公司成立于2010年，经过多年的发展，已成为行业内的领先者。
+              深圳申禾工业科技有限公司是一家专注于工业科技领域的高新技术企业，致力于为全球客户提供优质的3D打印设备及工业胶水解决方案。公司成立于2026年，行业内的领先者。
             </p>
             <p className="text-text-light leading-relaxed mt-4">
               我们坚持以技术创新为核心，以客户需求为导向，不断推出具有竞争力的产品和服务，助力客户实现产业升级和可持续发展。
