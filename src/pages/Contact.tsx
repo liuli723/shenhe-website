@@ -64,20 +64,20 @@ export function Contact() {
                   <span className="text-primary">🏢</span>
                   <div>
                     <p className="font-medium">深圳申禾工业科技有限公司</p>
-                    <p className="text-text-light text-sm">深圳市南山区科技园南区</p>
+                    <p className="text-text-light text-sm">深圳市宝安区松岗街道东方社区东方一路32号厂房A栋201</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-primary">📞</span>
                   <div>
-                    <p className="font-medium">0755-8888-8888</p>
+                    <p className="font-medium">133-8498-7720</p>
                     <p className="text-text-light text-sm">周一至周五 9:00-18:00</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-primary">✉️</span>
                   <div>
-                    <p className="font-medium">info@shenhe.com</p>
+                    <p className="font-medium">13384987720@189.com</p>
                     <p className="text-text-light text-sm">我们会在24小时内回复</p>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ export function Contact() {
               <CardContent>
                 <div className="bg-background-dark h-48 rounded-lg flex items-center justify-center text-text-light border border-border">
                   <div className="text-center">
-                    <p className="text-sm">📍 深圳市南山区科技园</p>
+                    <p className="text-sm">📍 深圳市宝安区松岗街道东方社区东方一路32号厂房A栋201</p>
                     <p className="text-xs mt-1">地图加载中...</p>
                   </div>
                 </div>
