@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"   # Netlify 在构建时会执行这个命令来打包你的项目
+  publish = "dist"            # 告诉 Netlify，打包好的文件放在 'dist' 文件夹里
+
+[[redirects]]
+  from = "/*"                 # 将所有的页面请求，都指向 index.html
+  to = "/index.html"
+  status = 200                # 这对单页应用 (SPA) 的路由至关重要

@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品中心",
+    "advantages": "企业优势",
+    "news": "新闻动态",
+    "contact": "联系我们"
+  },
+  "home": {
+    "hero": {
+      "title": "工业科技引领者",
+      "subtitle": "专注于3D打印设备及工业胶水解决方案"
+    },
+    "products": "核心业务",
+    "advantages": "企业优势",
+    "news": "最新动态",
+    "viewMore": "查看更多"
+  },
+  "about": {
+    "title": "关于我们",
+    "intro": "企业简介",
+    "qualifications": "企业资质",
+    "team": "团队介绍"
+  },
+  "products": {
+    "title": "产品中心",
+    "description": "产品描述",
+    "scenarios": "应用场景",
+    "process": "服务流程",
+    "cases": "案例展示"
+  },
+  "advantages": {
+    "title": "企业优势",
+    "data": "数据展示"
+  },
+  "news": {
+    "title": "新闻动态",
+    "back": "返回列表",
+    "noData": "暂无新闻"
+  },
+  "contact": {
+    "title": "联系我们",
+    "info": "联系方式",
+    "map": "地图定位",
+    "message": "在线留言",
+    "name": "姓名",
+    "phone": "联系方式",
+    "content": "留言内容",
+    "submit": "提交",
+    "success": "提交成功，我们会尽快与您联系",
+    "required": "请填写完整信息",
+    "invalidContact": "请输入正确的手机号或邮箱"
+  },
+  "footer": {
+    "copyright": "© 2026 深圳申禾工业科技有限公司 版权所有",
+    "备案号": "粤ICP备XXXXXXXX号"
+  },
+  "admin": {
+    "login": "登录",
+    "username": "用户名",
+    "password": "密码",
+    "dashboard": "数据看板",
+    "news": "新闻管理",
+    "products": "产品管理",
+    "advantages": "优势管理",
+    "totalNews": "新闻总数",
+    "totalProducts": "产品总数",
+    "add": "新增",
+    "edit": "编辑",
+    "delete": "删除",
+    "publish": "发布",
+    "unpublish": "下架",
+    "enable": "启用",
+    "disable": "禁用",
+    "status": "状态",
+    "published": "已发布",
+    "draft": "已下架",
+    "enabled": "已启用",
+    "disabled": "已禁用",
+    "title": "标题",
+    "summary": "摘要",
+    "content": "正文",
+    "coverImage": "封面图",
+    "publishTime": "发布时间",
+    "name": "名称",
+    "description": "描述",
+    "scenarios": "应用场景",
+    "process": "服务流程",
+    "icon": "图标",
+    "save": "保存",
+    "saveSuccess": "保存成功",
+    "deleteConfirm": "确认删除？",
+    "loginFailed": "用户名或密码错误",
+    "noData": "暂无数据，请新增"
+  }
+}

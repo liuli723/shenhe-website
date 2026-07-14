@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "advantages": "Advantages",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Industrial Technology Leader",
+      "subtitle": "Focus on 3D Printing & Industrial Adhesive Solutions"
+    },
+    "products": "Core Business",
+    "advantages": "Our Advantages",
+    "news": "Latest News",
+    "viewMore": "View More"
+  },
+  "about": {
+    "title": "About Us",
+    "intro": "Company Profile",
+    "qualifications": "Qualifications",
+    "team": "Our Team"
+  },
+  "products": {
+    "title": "Products",
+    "description": "Description",
+    "scenarios": "Scenarios",
+    "process": "Process",
+    "cases": "Cases"
+  },
+  "advantages": {
+    "title": "Advantages",
+    "data": "Key Data"
+  },
+  "news": {
+    "title": "News",
+    "back": "Back to list",
+    "noData": "No news yet"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "info": "Contact Info",
+    "map": "Map Location",
+    "message": "Leave a Message",
+    "name": "Name",
+    "phone": "Contact",
+    "content": "Message",
+    "submit": "Submit",
+    "success": "Submitted successfully, we will contact you soon",
+    "required": "Please fill in all required fields",
+    "invalidContact": "Please enter a valid phone or email"
+  },
+  "footer": {
+    "copyright": "© 2026 Shenzhen Shenhe Industrial Technology Co., Ltd. All Rights Reserved",
+    "备案号": "粤ICP备XXXXXXXX号"
+  },
+  "admin": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "dashboard": "Dashboard",
+    "news": "News Management",
+    "products": "Products Management",
+    "advantages": "Advantages Management",
+    "totalNews": "Total News",
+    "totalProducts": "Total Products",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "enable": "Enable",
+    "disable": "Disable",
+    "status": "Status",
+    "published": "Published",
+    "draft": "Draft",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "title": "Title",
+    "summary": "Summary",
+    "content": "Content",
+    "coverImage": "Cover Image",
+    "publishTime": "Publish Time",
+    "name": "Name",
+    "description": "Description",
+    "scenarios": "Scenarios",
+    "process": "Process",
+    "icon": "Icon",
+    "save": "Save",
+    "saveSuccess": "Saved successfully",
+    "deleteConfirm": "Confirm delete?",
+    "loginFailed": "Invalid username or password",
+    "noData": "No data, please add"
+  }
+}

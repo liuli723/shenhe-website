@@ -1,0 +1,69 @@
+shenhe-website/
+├── index.html
+├── package.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+├── tailwind.config.js
+├── postcss.config.js
+├── .env.example
+├── README.md
+├── public/
+│   └── locales/
+│       ├── zh/
+│       │   └── translation.json
+│       └── en/
+│           └── translation.json
+└── src/
+    ├── main.tsx
+    ├── App.tsx
+    ├── vite-env.d.ts
+    ├── index.css
+    ├── lib/
+    │   └── supabase.ts
+    ├── i18n.ts
+    ├── types/
+    │   └── index.ts
+    ├── hooks/
+    │   └── useAuth.ts
+    ├── utils/
+    │   └── helpers.ts          <-- 这里需要包含 cn 函数！
+    ├── services/
+    │   ├── news.ts
+    │   ├── products.ts
+    │   ├── advantages.ts
+    │   └── messages.ts
+    ├── components/
+    │   ├── ui/
+    │   │   ├── button.tsx
+    │   │   ├── card.tsx
+    │   │   ├── input.tsx
+    │   │   ├── label.tsx
+    │   │   ├── textarea.tsx
+    │   │   └── table.tsx
+    │   ├── layout/
+    │   │   ├── Header.tsx
+    │   │   ├── Footer.tsx
+    │   │   └── Layout.tsx
+    │   └── home/
+    │       ├── HeroSection.tsx
+    │       ├── ProductsPreview.tsx
+    │       ├── AdvantagesPreview.tsx
+    │       └── NewsPreview.tsx
+    └── pages/
+        ├── Home.tsx
+        ├── About.tsx
+        ├── Products.tsx
+        ├── Advantages.tsx
+        ├── News.tsx
+        ├── NewsDetail.tsx
+        ├── Contact.tsx
+        └── admin/
+            ├── Login.tsx
+            ├── Dashboard.tsx
+            ├── NewsManagement.tsx
+            ├── NewsForm.tsx
+            ├── ProductsManagement.tsx
+            ├── ProductForm.tsx
+            ├── AdvantagesManagement.tsx
+            └── AdvantageForm.tsx
