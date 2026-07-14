@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom'
 import { useAuth } from '@/hooks/useAuth'
 import { newsService } from '@/services/news'
 import { productService } from '@/services/products'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui'
+import { Card, CardContent } from "@/components/ui/card"
 import { Button } from '@/components/ui'
 import { FileText, Package, Plus } from 'lucide-react'
 

@@ -46,7 +46,7 @@ export function AdminLogin() {
                 type="email"
                 label="用户名"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
                 placeholder="admin@example.com"
                 required
               />
@@ -54,7 +54,7 @@ export function AdminLogin() {
                 type="password"
                 label="密码"
                 value={password}
-                onChange={(e) => setPassword(e.target.value)}
+                onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPassword(e.target.value)}
                 placeholder="••••••••"
                 required
               />

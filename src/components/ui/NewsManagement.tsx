@@ -4,10 +4,11 @@ import { useAuth } from '@/hooks/useAuth'
 import { newsService } from '@/services/news'
 import type { News } from '@/types'
 import { formatDateShort } from '@/utils/helpers'
-import { Card, CardContent } from '@/components/ui'
-import { Button, Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '@/components/ui'
-import { Badge } from '@/components/ui'
+//import { Card, CardContent } from '@/components/ui'
+import { Button, Table, TableHeader, TableBody, TableRow, TableHead, Badge, Card, CardContent } from '@/components/ui'
+//import { Badge } from '@/components/ui'
 import { Plus, Edit, Trash2, Eye, EyeOff } from 'lucide-react'
+import { TableCell } from "@/components/ui/table"
 
 export function AdminNewsManagement() {
   const navigate = useNavigate()
@@ -82,8 +83,8 @@ export function AdminNewsManagement() {
             <TableBody>
               {news.length === 0 ? (
                 <TableRow>
-                  <TableCell colSpan={4} className="text-center text-gray-400 py-8">
-                    暂无数据，请新增
+                  <TableCell className="text-center text-gray-400 py-8">
+                    暂无新闻
                   </TableCell>
                 </TableRow>
               ) : (

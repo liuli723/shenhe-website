@@ -129,14 +129,14 @@ export function AdminNewsForm() {
             <Input
               label="标题 *"
               value={formData.title}
-              onChange={(e) => setFormData({ ...formData, title: e.target.value })}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFormData({ ...formData, title: e.target.value })}
               placeholder="标题"
               required
             />
             <Input
               label="摘要 *"
               value={formData.summary}
-              onChange={(e) => setFormData({ ...formData, summary: e.target.value })}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFormData({ ...formData, summary: e.target.value })}
               placeholder="摘要"
               required
             />
@@ -156,7 +156,7 @@ export function AdminNewsForm() {
               <div className="flex gap-2">
                 <Input
                   value={formData.cover_image}
-                  onChange={(e) => setFormData({ ...formData, cover_image: e.target.value })}
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFormData({ ...formData, cover_image: e.target.value })}
                   placeholder="图片路径"
                   className="flex-1"
                 />
@@ -175,7 +175,7 @@ export function AdminNewsForm() {
               label="发布时间 *"
               type="datetime-local"
               value={formData.publish_time}
-              onChange={(e) => setFormData({ ...formData, publish_time: e.target.value })}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFormData({ ...formData, publish_time: e.target.value })}
               required
             />
             <div>
