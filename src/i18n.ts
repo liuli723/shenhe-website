@@ -16,7 +16,7 @@ const resources = {
       home: {
         hero: {
           title: '工业科技引领者',
-          subtitle: '专注于3D打印设备及工业胶水解决方案',
+          subtitle: '专注于工业胶水解决方案',
         },
         products: '核心业务',
         advantages: '企业优势',
@@ -115,7 +115,7 @@ const resources = {
       home: {
         hero: {
           title: 'Industrial Technology Leader',
-          subtitle: 'Focus on 3D Printing & Industrial Adhesive Solutions',
+          subtitle: 'Focus on Industrial Adhesive Solutions',
         },
         products: 'Core Business',
         advantages: 'Our Advantages',

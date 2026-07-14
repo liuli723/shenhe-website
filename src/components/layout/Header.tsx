@@ -30,7 +30,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link to="/" className="flex items-center gap-2">
             <div className="w-8 h-8 bg-[#D4A843] rounded-lg flex items-center justify-center text-white font-bold text-sm">
-              申
+              申禾
             </div>
             <span className="text-xl font-bold text-[#1A1A1A]">申禾工业</span>
             <span className="text-sm text-[#6B6B6B] hidden sm:inline">| 科技引领未来</span>
